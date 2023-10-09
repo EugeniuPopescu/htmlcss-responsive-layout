@@ -9,9 +9,10 @@
 }
 
 /*** FLEX ***/
-.d-flex {	display: flex;	}
+.d-flex { display: flex;	}
 .flex-row {	flex-direction: row; }
 .flex-column { flex-direction: column; }
+.f-wrap { flex-wrap: wrap; }
 .flex-justify-between { justify-content: space-between; }
 .justify-end { justify-content: flex-end; }
 .justify-start { justify-content: flex-start; }
@@ -21,7 +22,6 @@
 .flex-align-center { align-items: center; }
 .flex-align-start { align-items: flex-start; }
 .flex-alignContent-center { align-content: center;}
-.f-wrap{flex-wrap:wrap;}
 
 /*** WIDTH ***/
 .w-10 { width: 10%; } /* 1/10 */
@@ -162,17 +162,6 @@
 .bg-nome { background-color: nome; }
 .bg-bordeaux { background-color: brown; }
 
-/* bg Dropbox */
-.bg-lightgreenD { background-color: #d2e9cd; }
-.bg-greenD { background-color: #a2d39b; }
-.bg-bordeauxD { background-color: #60092b; }
-.bg-azzurroD { background-color: #0093ce; }
-.bg-rossoD { background-color: #ff1b1c; }
-.bg-dRossoD { background-color: #d50120; }
-.bg-azzurroCD { background-color: #b4d0e7; }
-.bg-bluD { background-color: #0d2481; }
-.bg-gialloD { background-color: #ffd830; }
-.bg-grigioD { background-color: #f5f5f5; }
 
 /* bg-responsive layout */
 .bg-header { background-color: #0084FD }
@@ -180,8 +169,7 @@
 .bg-purple { background-color: #9792E4 }
 .bg-footer { background-color: #333333 }
 
-
-/*** COLORS ***/
+/*** colors layout ***/
 .c-lightblue {color: lightblue; }
 .c-white { color: white; }
 .c-purple { color: #9792E4 }
@@ -234,3 +222,6 @@
 .vw-70{height:70vw;}
 .vw-90{height:90vw;}
 .vw-100{height:100vw;}
+
+/***  ***/
+.text-center { text-align: center; }

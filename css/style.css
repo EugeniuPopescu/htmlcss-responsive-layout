@@ -21,7 +21,7 @@
     }
 
     .small {
-        width: 32%;
+        width: 31%;
     }
 
     .second {
@@ -30,9 +30,29 @@
     }
 
     .regular {
-        width: 32%;
+        width: 31%;
     }
+
+    /* benefits */
+    .benefits {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .b-card {
+        width: calc(100% / 2 - 2%);
+    }
+
+    /* about-us */
+    .about-us {
+        justify-content: space-between;
+        display: flex;
+    }
+
+
 }
+
 
 /* DESKTOP */
 @media only screen and (min-width: 992px) {
@@ -70,21 +90,20 @@ body {
 }
 
 .p-card {
-    width: 100%;
     min-height: 50vh;
     border-radius: 2em;
 }
 
 /* testimonials */
 .t-card {
-    width: 100%;
     min-height: 30vh;
     border-radius: 2em;
 }
 
 /* benefits */
 .b-card {
-    width: 100%;
     min-height: 30vh;
     border-radius: 1em;
 }
+
+/*********** FOOTER ***********/
