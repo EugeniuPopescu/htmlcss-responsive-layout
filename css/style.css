@@ -2,3 +2,38 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.menu {
+    font-size: larger;
+}
+
+/*********** MAIN ***********/
+.card {
+    width: 100%;
+    min-height: 30vh;
+    border-radius: 1em;
+}
+
+/* plannings */
+.p-img-1 {
+    width: 90%;
+}
+
+.p-card {
+    width: 100%;
+    min-height: 50vh;
+    border-radius: 2em;
+}
+
+/* testimonials */
+.t-card {
+    width: 100%;
+    min-height: 30vh;
+    border-radius: 2em;
+}
+
+/* benefits */
+.b-card {
+    width: 100%;
+    min-height: 30vh;
+    border-radius: 1em;
+}
