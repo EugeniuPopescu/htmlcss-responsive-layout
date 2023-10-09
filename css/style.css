@@ -1,3 +1,55 @@
+.container {
+    /* min-height: 100vh; così si adatta al contenuto */
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* TABLET */
+@media only screen and (min-width: 768px) {
+    /* and -> mi da il range di dimensione dove voglio lavorare */
+    .container {
+        width: 80%;
+    }
+
+    .first {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .big {
+        width: 66%;
+    }
+
+    .small {
+        width: 32%;
+    }
+
+    .second {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .regular {
+        width: 32%;
+    }
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 992px) {
+    .container {
+        background-color: green;
+        width: 900px;
+    }
+}
+
+/* LARGE DESKTOP */
+@media only screen and (min-width: 1200px) {
+    .container {
+        background-color: yellow;
+    }
+}
+
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -8,7 +60,6 @@ body {
 
 /*********** MAIN ***********/
 .card {
-    width: 100%;
     min-height: 30vh;
     border-radius: 1em;
 }
