@@ -129,7 +129,7 @@
 .pb-64 { padding-bottom: 64px; }
 .pl-64 { padding-left: 64px; }
 .py-64 { padding: 64px 0; }
-.px-64 { padding: 0 margin}
+.px-64 { padding: 0 64px}
 
 .p-128 { padding: 128px; }
 .pt-128 { padding-top: 128px; }
@@ -174,6 +174,7 @@
 .c-white { color: white; }
 .c-purple { color: #9792E4 }
 .c-yellow { color: #FDC15F }
+.c-blue { color: #0084FD }
 
 /*** FONT-SIZE ***/
 .f-2{font-size: 2px;}
