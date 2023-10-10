@@ -167,6 +167,12 @@ a {
     border-radius: 50%;
 }
 
+#quote {
+    font-size: 4em;
+    position: absolute;
+    right: 3em;
+}
+
 
 /* get started */
 .underline {
