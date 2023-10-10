@@ -174,7 +174,8 @@
 .c-white { color: white; }
 .c-purple { color: #9792E4 }
 .c-yellow { color: #FDC15F }
-.c-blue { color: #0084FD }
+.c-blue { color: #0084FD}
+.c-grey { color: grey }
 
 /*** FONT-SIZE ***/
 .f-2{font-size: 2px;}

@@ -1,6 +1,6 @@
 .container {
     /* min-height: 100vh; così si adatta al contenuto */
-    width: 90%;
+    max-width: 90%;
     margin: 0 auto;
 }
 
@@ -121,16 +121,32 @@ a {
     border-radius: 2em;
 }
 
+.p-img-2 {
+    width: 80%;
+}
+
 /* testimonials */
 .t-card {
     min-height: 30vh;
     border-radius: 2em;
 }
 
+.testimonial {
+    width: 14em;
+    height: 13em;
+    border-radius: 50%;
+    image-rendering: auto;
+}
+
 /* benefits */
 .b-card {
     min-height: 30vh;
     border-radius: 1em;
+}
+
+.number {
+    font-size: 3em;
+    font-weight: 700;
 }
 
 /*********** FOOTER ***********/
