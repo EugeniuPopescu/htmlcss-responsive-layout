@@ -11,6 +11,7 @@
         max-width: 80%;
     }
 
+    /* cars */
     .first {
         display: flex;
         justify-content: space-between;
@@ -32,6 +33,17 @@
 
     .regular {
         width: 31%;
+    }
+
+    /* testimonials */
+    .testimonial {
+        display: flex;
+    }
+
+    .testimonial-text {
+        padding-top: 64px;
+        padding-left: 32px;
+        text-align: left;
     }
 
     /* benefits */
@@ -131,7 +143,7 @@ a {
     border-radius: 2em;
 }
 
-.testimonial {
+.testimonial-img {
     width: 14em;
     height: 13em;
     border-radius: 50%;
