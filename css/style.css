@@ -8,7 +8,7 @@
 @media only screen and (min-width: 768px) {
     /* and -> mi da il range di dimensione dove voglio lavorare */
     .container {
-        width: 80%;
+        max-width: 80%;
     }
 
     .first {
@@ -135,7 +135,6 @@ a {
     width: 14em;
     height: 13em;
     border-radius: 50%;
-    image-rendering: auto;
 }
 
 /* benefits */
@@ -149,4 +148,16 @@ a {
     font-weight: 700;
 }
 
+/* about us */
+.img-about-us {
+    width: 13em;
+    height: 12em;
+    border-radius: 50%;
+}
+
+
+/* get started */
+.underline {
+    text-decoration: underline;
+}
 /*********** FOOTER ***********/
