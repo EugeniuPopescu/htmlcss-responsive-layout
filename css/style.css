@@ -1,5 +1,18 @@
 .container {
     /* min-height: 100vh; così si adatta al contenuto */
+    width: 600px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.container-small {
+    width: 600px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.container-medium {
+    width: 600px;
     max-width: 90%;
     margin: 0 auto;
 }
@@ -8,7 +21,25 @@
 @media only screen and (min-width: 768px) {
     /* and -> mi da il range di dimensione dove voglio lavorare */
     .container {
+        width: 800px;
         max-width: 80%;
+    }
+
+    .container-small {
+        width: 800px;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .container-medium {
+        width: 800px;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    /* menu2 */
+    .menu2 {
+        display: none;
     }
 
     /* cars */
@@ -38,10 +69,17 @@
     /* testimonials */
     .testimonial {
         display: flex;
+        height: 3em;
+    }
+
+    /* testimonials */
+    .t-card {
+        height: 13em;
+        border-radius: 2em;
     }
 
     .testimonial-text {
-        padding-top: 64px;
+        padding-top: 32px;
         padding-left: 32px;
         text-align: left;
     }
@@ -70,20 +108,71 @@
 /* DESKTOP */
 @media only screen and (min-width: 992px) {
     .container {
-        background-color: green;
-        width: 900px;
+        width: 1000px;
+        max-width: 80%;
+    }
+    .container-medium {
+        width: 1000px;
+        max-width: 65%;
+        margin: 0 auto;
+    }
+    
+    .container-small {
+        width: 1000px;
+        max-width: 40%;
+        margin: 0 auto;
+    }
+
+    .menu2 {
+        display: none;
+    }
+
+    /* planning */
+    .planning {
+        display: flex;
+    }
+
+    .p-img-1 {
+        width: 70%;
+    }
+
+    .right-planning {
+        min-height: 15em;
+        margin-top: 10em;
+    }
+
+    /* benefits */
+    .b-card {
+        width: calc(100% / 3 - 2%);
     }
 }
 
 /* LARGE DESKTOP */
 @media only screen and (min-width: 1200px) {
     .container {
-        background-color: yellow;
+        width: 90%;
+        max-width: 1200px;
+    }
+
+    .container-medium {
+        width: 65%;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    
+    .container-small {
+        width: 40%;
+        max-width: 1000px;
+        margin: 0 auto;
     }
 }
 
 
 body {
+    font-family: 'Croissant One', serif;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Fredericka the Great', serif;
+    font-family: 'Roboto', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -101,6 +190,11 @@ p {
 }
 
 /*********** MAIN ***********/
+
+.menu2 {
+    display: none;
+}
+
 .card {
     min-height: 30vh;
     border-radius: 1em;
@@ -125,7 +219,7 @@ a {
 
 /* plannings */
 .p-img-1 {
-    width: 90%;
+    width: 80%;
 }
 
 .p-card {
@@ -139,13 +233,12 @@ a {
 
 /* testimonials */
 .t-card {
-    min-height: 30vh;
     border-radius: 2em;
 }
 
 .testimonial-img {
-    width: 14em;
-    height: 13em;
+    width: 10em;
+    height: 9em;
     border-radius: 50%;
 }
 
@@ -167,14 +260,29 @@ a {
     border-radius: 50%;
 }
 
+.quotes-container {
+    width: 15em;
+    height: 10em;
+}
+
 #quote {
     font-size: 4em;
     position: absolute;
-    right: 3em;
+    right: 3.5em;
 }
 
 
 /* get started */
+.p-large {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.p-medium {
+    font-size: 40px;
+    font-weight: 600;
+}
+
 .underline {
     text-decoration: underline;
 }

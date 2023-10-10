@@ -6,6 +6,9 @@
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./css/utilities.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Fredericka+the+Great&family=Fredoka&family=Open+Sans:wght@300;700&family=Roboto:ital,wght@1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <title>htmlcss-responsive-layout</title>
     </head>
     
@@ -16,9 +19,25 @@
                 <div class="logo">
                     <img src="./img/logo.png" alt="logo">
                 </div>
+                
                 <div class="menu">
                     <i class="menu fa-solid fa-bars" style="color: #ffffff;"></i>
                 </div>
+                
+                <!-- <div class="menu2 d-flex">
+                    <p>
+                        Planning
+                    </p>
+                    <p>
+                        Testimonials
+                    </p>
+                    <p>
+                        features
+                    </p>
+                    <p>
+                        About Us
+                    </p>
+                </div> -->
             </div>
         </header>
 
@@ -131,22 +150,25 @@
 
             <!-- planning -->
             <div class="bg-purple pb-64">
-                <div class="container">
-                    <div class="d-flex flex-justify-center py-64">
-                        <img class="p-img-1" src="./img/planning1.png" alt="planning-img-1">
+                <div class="planning container-medium">
+                    <div>
+                        <div class="d-flex flex-justify-center pt-64 pb-32">
+                            <img class="p-img-1" src="./img/planning1.png" alt="planning-img-1">
+                        </div>
+                        <div class="pb-32 c-white">
+                            <h2 class="pb-32">
+                                Strategic Planning
+                            </h2>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ipsam dolores itaque laudantium, eius praesentium maxime pariatur modi mollitia blanditiis quo nostrum. Dolorem hic libero quidem praesentium nihil est enim.
+                            </p>
+                        </div>
                     </div>
-                    <div class="pb-32 c-white">
-                        <h2 class="pb-32">
-                            Strategic Planning
-                        </h2>
-                        <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ipsam dolores itaque laudantium, eius praesentium maxime pariatur modi mollitia blanditiis quo nostrum. Dolorem hic libero quidem praesentium nihil est enim.
-                        </p>
-                    </div>
+                    
 
-                    <div class="p-card bg-white text-center px-16">
+                    <div class="right-planning p-card bg-white text-center px-16">
                         <div>
-                            <img class="p-img-2 pt-32" src="./img/planning2.png" alt="planning-img-2">
+                            <img class="p-img-2 pt-8" src="./img/planning2.png" alt="planning-img-2">
                         </div>
 
                         <div>
@@ -158,7 +180,7 @@
                                 Develop an on-demand app for your delivery business to reach your target customers without any interuption.
                             </i></p>
 
-                            <i class="fa-solid fa-arrow-down-long bg-purple p-16 my-32" style="color: #522d71; border-radius: 60%;"></i>
+                            <i class="fa-solid fa-arrow-down-long bg-purple p-16 my-16" style="color: #522d71; border-radius: 60%;"></i>
                         </div>
                     </div>
                 </div>
@@ -170,9 +192,9 @@
                     <h4>
                         TESTIMONIALS
                     </h4>
-                    <h2 class="c-purple py-32"> 
+                    <p class="p-medium c-purple py-32"> 
                         We are committed expert partners
-                    </h2>
+                    </p>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet architecto fuga repellendus sed recusandae ut magni veritatis molestias laudantium nesciunt sapiente incidunt magnam vero minima, unde, officiis voluptatem impedit non!
                     </p>
@@ -237,7 +259,9 @@
             <div class="bg-purple">
                 <div class="container pb-32">
                     <div class="py-64 c-white">
-                        <h2>Bonefits of working with us</h2>
+                        <p class="p-medium c-white text-center">
+                            Bonefits of working with us
+                        </p>
                     </div>
 
                     <div class="benefits">
@@ -385,10 +409,10 @@
             </div>
 
             <!-- about us -->
-            <div class="container py-64">
+            <div class="container-medium py-64">
                 <div class="about-us">
                     <div class="big">
-                        <h2 class="c-purple">About Us</h2>
+                        <p class="p-medium c-purple">About Us</p>
                         <p class="py-32">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi sed excepturi placeat veniam id nulla porro, nostrum natus ullam dolore tempora eligendi nobis tenetur deleniti. Quo perferendis error rem odio!
                             Repellendus quae iste magni dolor eius eum accusamus expedita exercitationem qui consequatur provident, nihil sequi quaerat libero alias sapiente id totam autem nostrum natus mollitia repellat 
@@ -400,7 +424,7 @@
                     </div>
     
                     <div class="small">
-                        <div class="rellative">
+                        <div class="quotes-container rellative">
                             <img class="img-about-us" src="./img/about.jpg" alt="img-about-us">
                             <i id="quote" class="fa-solid fa-quote-left" style="color: #9792E4;"></i>
                         </div>
@@ -425,25 +449,25 @@
 
             <!-- get started -->
             <div class="bg-purple text-center">
-                <div class="container py-32">
+                <div class="container-small py-32">
                     <h3 class="c-white py-16">
                         GET STARTED
                     </h3>
                     
-                    <h2 class="c-white py-16">
+                    <p class="p-medium c-white py-16">
                         Simple, Trasparent Pricing
-                    </h2>
+                    </p>
                     
-                    <h1 class="c-yellow py-16">
+                    <p class="p-large c-yellow py-16">
                         It's Free!
-                    </h1>
+                    </p>
 
                     <p class="c-white py-16">
                         We're still in beta and we will be for a while. As we add more functionallyy, we'll look into other plans with more controls.
                     </p>
 
-                    <button class="btn bg-white py-8 mb-32">
-                        <a href="#" class="d-flex px-32">
+                    <button class="btn bg-white py-16 my-32">
+                        <a href="#" class="d-flex px-64">
                             <h4 class="c-purple">
                                 Get Started
                             </h4>
@@ -461,9 +485,9 @@
 
         <!-- footer -->
         <footer class="bg-footer text-center">
-            <div class="container py-32 c-white">
+            <div class="container-small py-32 c-white">
                 <p class="py-32">L
-                    orem ipsum dolor sit amet consectetur adipisicing elit. Rem dolore magnam provident molestias dicta corporis error beatae possimus consequuntur minus. 
+                    orem ipsum dolor sit amet consectetur adipisicing elit. Rem dolore magnam provident molestias dicta corporis. 
                 </p>
 
                 <p><a class="underline c-purple" href="#">
